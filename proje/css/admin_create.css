@@ -1,0 +1,178 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #f1f1f1;
+    color: #343a40;
+}
+
+
+.admin-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h1, h2 {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #343a40;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #343a40;
+}
+
+
+p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+p.error {
+    color: red;
+}
+
+p.success {
+    color: green;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        text-align: left;
+        padding: 10px;
+    }
+
+    .navbar a {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .admin-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 8px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .admin-container {
+        width: 85%;
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+
+    button {
+        width: auto;
+        padding: 10px 20px;
+    }
+}
