@@ -1,8 +1,8 @@
-FRC Academy
+###FRC Academy
 
 FRC Academy, FIRST Robotics Competition (FRC) takımlarının yazılım, mekanik, elektronik, tasarım ve strateji gibi alanlarda gelişmesini hedefleyen kapsamlı bir eğitim platformudur Rüzgar Günay Tarafından Geliştirilmiştir Ücretsiz kullanabilir veya frcacademy.com dan eğitimlere kolayca ulaşabilirsiniz satışı yasaktır 
 
-🔧 Özellikler
+###🔧 Özellikler
 
 Rol tabanlı kullanıcı yönetimi (Admin, Mentör, Öğrenci)
 
@@ -14,7 +14,7 @@ FRC Hakkında Bilgiler: Yarışma kuralları, ipuçları ve strateji önerileri
 
 Modern, responsive tasarım ile her cihazda rahat kullanım
 
-📌 Teknolojiler
+###📌 Teknolojiler
 
 Backend: PHP & MySQL
 
@@ -24,7 +24,7 @@ Veri Depolama: MySQL + JSON dosyaları
 
 Barındırma: Hostinger
 
-🚀 Gelecek Planları
+###🚀 Gelecek Planları
 
 Sınav sistemi entegrasyonu
 
