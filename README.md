@@ -1,2 +1,0 @@
-# frcacademy develop by DarkR
-
