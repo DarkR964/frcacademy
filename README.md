@@ -31,3 +31,7 @@ Sınav sistemi entegrasyonu
 Canlı ders ve soru-cevap modülü
 
 Takımlar arası iletişim platformu
+
+
+### SQL LİNKİ:
+https://dosya.co/cv5hn8kc4ef3/u366259905_frcacademy.sql.html
